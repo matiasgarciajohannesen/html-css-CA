@@ -8,6 +8,7 @@
 .header-wrapper {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr;
+    background-color: #848ca4;
 }
 
 .logo {
@@ -44,6 +45,16 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-size: x-large;
+}
+
+.banner {
+    padding: 45px;
+}
+
+.fakeimg {
+    background-color: #aaaaaa;
+    width: 100%;
+    padding: 20px;
 }
 
 footer {
