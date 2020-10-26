@@ -63,6 +63,8 @@ footer {
     text-align: center;
     background: #1B203D;
     color: white;
+    justify-content: space-around;
+    align-items: center;
 }
 footer li{
     display: flex;
