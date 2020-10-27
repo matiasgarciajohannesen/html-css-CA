@@ -57,10 +57,14 @@ nav {
 }
 
 .banner {
-    margin: auto;
-
+    margin: 45px;
 }
 
+.front {
+    display: grid;
+    grid-template-columns: auto;
+    
+}
 
 
 .fakeimg {
