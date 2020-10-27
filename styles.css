@@ -60,17 +60,31 @@ nav {
     margin: 45px;
 }
 
+body {
+    background-color:   #c9d9da;
+}
+
+.title1 {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    font-size: xx-large;
+    height: 50px;
+}
+
 .front {
     display: grid;
-    grid-template-columns: auto;
-    
+    grid-template-columns: 2fr 2fr 2fr;
+    align-items: stretch;
+    margin: 60px;
 }
 
 
 .fakeimg {
     background-color: #aaaaaa;
-    width: 100%;
+    width: 70%;
     padding: 20px;
+    justify-content: center;
 }
 
 footer {
