@@ -52,9 +52,16 @@ nav {
     font-size: x-large;
 }
 
-.banner {
-    padding: 45px;
+.navbar>a {
+    padding-right: 30px;
 }
+
+.banner {
+    margin: auto;
+
+}
+
+
 
 .fakeimg {
     background-color: #aaaaaa;
