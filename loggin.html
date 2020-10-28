@@ -25,6 +25,30 @@
             </nav>
         </div>
     </header>
+
+    <form action="action_page.php" method="post">
+        <div class="imgcontainer">
+            <img src="./images/kontobilde.png" alt="avatar" class="avatar">
+        </div>
+
+        <div class="container">
+            <label for="uname"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username">
+
+            <label for="psw"><b>Password</b></label>
+            <input type="text" placeholder="Enter Password">
+
+            <button type="submit">Login</button>
+            <button type="button" class="createaccountbtn">Create Account</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+            </label>
+        </div>
+        <div class="container" style="background-color:#f1f1f1">
+            <button type="button" class="cancelbtn">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
 </body>
 <footer>
     <ul class="footer 1">
