@@ -62,7 +62,9 @@ nav {
 }
 
 .banner {
-    margin: 45px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
 }
 
 body {
@@ -83,6 +85,7 @@ body {
     align-items: stretch;
     margin: 60px;
 }
+
 
 
 .fakeimg {
