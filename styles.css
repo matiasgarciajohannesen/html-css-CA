@@ -126,7 +126,8 @@ footer a:hover {
     color: black;
 }
 
-#checkout
+/*checkout*/
+
 .row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
@@ -218,7 +219,8 @@ footer a:hover {
     border: 3px solid #f1f1f1;
   }
   
-  #loggin
+  /*login*/
+
   input[type=text], input[type=password] {
       width: 100%;
       padding: 12px 20px;
@@ -238,6 +240,7 @@ footer a:hover {
     margin: 8px 0;
   }
 
+
   button {
       background-color: yellow;
       color: black;
@@ -246,6 +249,7 @@ footer a:hover {
       border: none;
       cursor: pointer;
       width: 50%;
+      text-decoration: none;
   }
   
   button:hover {
@@ -260,18 +264,60 @@ footer a:hover {
       flex-direction: column;
   }
 
-  .cancelbtn {
+.cancelbtn {
       width: 51%;
       padding: 14px 20px;
       background-color: red;
   }
 
-  .createaccountbtn {
+  .cancelbtn:hover {
+    opacity: 0.8;
+    background-color: darkred;
+    color: white;
+  }
+
+  .submitbtn {
       width: 50%;
       padding: 14px 20px;
       margin: 8px 0;
       background-color: yellow;
-    }
+      display: grid;
+      grid-template-columns: 1fr;
+      align-items: center;
+      text-decoration: none;
+  }
+
+  .createaccountbtn {
+    width: 50%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    text-decoration: none;
+  }
+
+  
+
+  #a:hover {
+    opacity: 0.8;
+    background-color: #f2eb3e;
+  }
+
+  .createaccountbtn1 {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  .submitbtn1 {
+    width: auto;
+    margin: 0;
+    padding: 0; 
+    text-decoration: none;  
+  }
+  
 
   .imgcontainer {
       text-align: center;
@@ -306,3 +352,6 @@ footer a:hover {
         width: 100%;
       }
   }
+
+  /*create account*/
+
