@@ -112,6 +112,7 @@ footer li{
 
 
 }
+
 footer a {
     color: white;
     padding: 0px 20px;
@@ -134,56 +135,56 @@ footer a:hover {
     -ms-flex-wrap: wrap; /* IE10 */
     flex-wrap: wrap;
     margin: 0 -16px;
-  }
+}
   
-  .col-25 {
+.col-25 {
     -ms-flex: 25%; /* IE10 */
     flex: 25%;
-  }
+}
   
-  .col-50 {
+.col-50 {
     -ms-flex: 50%; /* IE10 */
     flex: 50%;
-  }
+}
   
-  .col-75 {
+.col-75 {
     -ms-flex: 75%; /* IE10 */
     flex: 75%;
-  }
+}
   
-  .col-25,
-  .col-50,
-  .col-75 {
+.col-25,
+.col-50,
+.col-75 {
     padding: 0 16px;
-  }
+}
   
-  .container {
+.container {
     background-color: #f2f2f2;
     padding: 5px 20px 15px 20px;
     border: 1px solid lightgrey;
     border-radius: 3px;
-  }
+}
   
-  input[type=text] {
+input[type=text] {
     width: 100%;
     margin-bottom: 20px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
-  }
+}
   
-  label {
+label {
     margin-bottom: 10px;
     display: block;
-  }
+}
   
-  .icon-container {
+.icon-container {
     margin-bottom: 20px;
     padding: 7px 0;
     font-size: 24px;
-  }
+}
   
-  .btn1 {
+.btn1 {
     background-color: yellow;
     color: black;
     padding: 12px;
@@ -194,16 +195,16 @@ footer a:hover {
     cursor: pointer;
     font-size: 17px;
 
-  }
+}
   
-  .btn1:hover {
+.btn1:hover {
     background-color: #f2eb3e;
-  }
+}
   
-  span.price {
+span.price {
     float: right;
     color: grey;
-  }
+}
   
   
   @media (max-width: 800px) {
@@ -215,22 +216,22 @@ footer a:hover {
     }
   }
 
-  form {
+form {
     border: 3px solid #f1f1f1;
-  }
+}
   
   /*login*/
 
-  input[type=text], input[type=password] {
+input[type=text], input[type=password] {
       width: 100%;
       padding: 12px 20px;
       margin: 8px 0;
       display: inline-block;
       border: 1px solid #ccc;
       box-sizing: border-box;
-  }
+}
 
-  .login {
+.login {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -238,10 +239,10 @@ footer a:hover {
     width: 53.5%;
     padding: 14px 20px;
     margin: 8px 0;
-  }
+}
 
 
-  button {
+button {
       background-color: yellow;
       color: black;
       padding: 14px 20px;
@@ -250,33 +251,33 @@ footer a:hover {
       cursor: pointer;
       width: 50%;
       text-decoration: none;
-  }
+}
   
-  button:hover {
+button:hover {
       opacity: 0.8;
-      background-color: #f2eb3e;
-  }
+}
 
-  .createbtn {
+.createbtn {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-  }
+}
 
 .cancelbtn {
       width: 51%;
       padding: 14px 20px;
       background-color: red;
-  }
+}
 
-  .cancelbtn:hover {
+.cancelbtn:hover {
     opacity: 0.8;
     background-color: darkred;
     color: white;
-  }
+    
+}
 
-  .submitbtn {
+.submitbtn {
       width: 50%;
       padding: 14px 20px;
       margin: 8px 0;
@@ -285,9 +286,9 @@ footer a:hover {
       grid-template-columns: 1fr;
       align-items: center;
       text-decoration: none;
-  }
+}
 
-  .createaccountbtn {
+.createaccountbtn {
     width: 50%;
     padding: 14px 20px;
     margin: 8px 0;
@@ -296,62 +297,111 @@ footer a:hover {
     grid-template-columns: 1fr;
     align-items: center;
     text-decoration: none;
-  }
+}
 
   
 
-  #a:hover {
+#a:hover {
     opacity: 0.8;
     background-color: #f2eb3e;
-  }
+}
 
-  .createaccountbtn1 {
+.createaccountbtn1 {
     width: auto;
     margin: 0;
     padding: 0;
     text-decoration: none;
-  }
-  .submitbtn1 {
+}
+
+.submitbtn1 {
     width: auto;
     margin: 0;
     padding: 0; 
     text-decoration: none;  
-  }
+}
   
 
-  .imgcontainer {
+.imgcontainer {
       text-align: center;
       margin: 20px 0 12px 0;
-  }
+}
 
-  img.avatar {
+img.avatar {
       width: 20%;
       border-radius: 25%;
-  }
+}
 
-  .container {
+.container {
       display: flex;
       justify-content: center;
       align-items: center;
       flex-direction: column;
       padding: 16px;
       
-  }
+}
 
-  span.psw {
+span.psw {
       float: right;
       padding-top: 16px;
-  }
+}
 
-  @media screen and (max-widt: 300px) {
+@media screen and (max-widt: 300px) {
     span.psw {
         display: block;
         float: none;
-      }
+}
+
       .cancelbtn {
         width: 100%;
       }
-  }
+}
 
   /*create account*/
 
+input [type=text], input [type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 15px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #dddddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #dddddd;
+  margin-bottom: 25px;
+}
+
+.cancelbtn2 {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+.clearfix {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
