@@ -9,6 +9,7 @@ body {
     margin: 0;
 }
 
+/*header*/
 
 .header-wrapper {
     display: grid;
@@ -60,6 +61,8 @@ nav {
 .navbar a:hover {
     color: white;
 }
+
+/*frontpage*/
 
 .banner {
     display: flex;
@@ -416,3 +419,19 @@ hr {
     width: 100%;
   }
 }
+
+/*games-page*/
+
+.box-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 10px 10px 10px;
+}
+.box-side {
+    background-color: #848ca4;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    color: black;
+}
+
