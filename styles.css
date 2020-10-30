@@ -379,7 +379,6 @@ span.psw {
 
   /*create account*/
 
-
 .container1 {
     display: grid;
     justify-content: center;
@@ -438,6 +437,47 @@ hr {
     width: 100%;
   }
 }
+
+/*account*/
+
+.account {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.line1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.games-for-sale {
+    background-color: #848ca4;
+}
+
+.account-img {
+    display: flex;
+    justify-content: center;
+
+}
+
+.line2 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    margin: 10px;
+}
+
+.my-games {
+background-color: #848ca4;
+}
+
+.accountinfo {
+    background-color: #848ca4;
+
+}
+
 
 /*games-page*/
 
