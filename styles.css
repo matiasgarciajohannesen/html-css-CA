@@ -623,10 +623,6 @@ background-color: #848ca4;
         grid-template-rows: 1fr 3fr;
     }
 
-    .account-img {
-        width: 220px;
-        height: 200px;
-    }
     .account-img > img {
         display: none;
 
@@ -634,6 +630,17 @@ background-color: #848ca4;
 
     .accountinfo {
         display: none;
+    }
+    .games-for-sale {
+        display: grid;
+        justify-content: center;
+        margin: 40px;
+    }
+
+    .my-games {
+        display: grid;
+        justify-content: center;
+        margin: 40px;
     }
 
     .line2 {
@@ -645,6 +652,7 @@ background-color: #848ca4;
         grid-template-columns: 3fr 1fr;
         height: 60%;
         width: 100%;
+        grid-gap: 0px;
     }
     
     .games-for-sale {
@@ -652,6 +660,21 @@ background-color: #848ca4;
     }
 }
 
-@media (min-width:1400px) {
+@media (max-width:800px) {
+
+    .banner {
+        display: none;
+    }
+
+    .front {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .fallguys a>img{
+        width: 100%;
+    }
 
 } 
