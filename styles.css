@@ -366,16 +366,7 @@ span.psw {
       padding-top: 16px;
 }
 
-@media screen and (max-widt: 300px) {
-    span.psw {
-        display: block;
-        float: none;
-}
 
-      .cancelbtn {
-        width: 100%;
-      }
-}
 
   /*create account*/
 
@@ -430,12 +421,6 @@ hr {
   content: "";
   clear: both;
   display: table;
-}
-
-@media screen and (max-width: 300px) {
-  .cancelbtn, .signupbtn {
-    width: 100%;
-  }
 }
 
 /*account*/
@@ -532,3 +517,33 @@ background-color: #848ca4;
     margin: 20px;
 }
 
+/*mobile*/
+
+@media (max-width: 400px) {
+    span.psw {
+        display: block;
+        float: none;
+}
+
+
+@media (max-width: 400px) {
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+  }
+
+@media (max-width: 400px) {
+    .header-wrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width 400px) {
+    
+}
+
+@media (max-width400px) {
+    .banner {
+        width: 100%;
+    }
+}
