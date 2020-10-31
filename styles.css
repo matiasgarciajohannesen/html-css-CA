@@ -494,3 +494,41 @@ background-color: #848ca4;
     color: black;
 }
 
+/*game*/
+
+.gamesite {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gameleft {
+    display: grid;
+    grid-row: 1fr 1fr;
+    justify-content: center;
+    margin: 5%;
+}
+
+.price2 {
+    text-align: center;
+}
+
+.gameright{
+    display: grid;
+    grid-row: 1fr 1fr 1fr;
+    justify-content: center;
+    margin: 5%;
+    grid-gap: 20px;
+    background-color: #848ca494;
+}
+
+.gamediscription {
+    font-size: x-large;
+}
+.gamediscription>p {
+    margin: 20px;
+}
+
+.addbtn{
+    margin: 20px;
+}
+
