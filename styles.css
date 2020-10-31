@@ -662,6 +662,15 @@ background-color: #848ca4;
 
 @media (max-width:800px) {
 
+    span.psw {
+        display: block;
+        float: none;
+    }
+
+    .cancelbtn, .signupbtn {
+      width: 100%;
+    }
+
     .banner {
         display: none;
     }
@@ -669,12 +678,51 @@ background-color: #848ca4;
     .front {
         width: 100%;
         display: flex;
-        flex-direction: row;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: x-large;
     }
 
-    .fallguys a>img{
+    .box-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        grid-gap: 10px;
+        font-size: large;
+    }
+
+    .box-side {
+        width: 100%;
+        font-size: xx-large;
+    }
+
+    .checkbox1 {
+        font-size: xx-large;
+    }
+
+    .box-container2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-container3 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .gamesite{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gameimg3 {
+        display: flex;
+        width: 100%;
+    }
+    .gameimg3 > img {
         width: 100%;
     }
 
-} 
+    .gameimg2 {
+        display: none;
+    }
+    } 
