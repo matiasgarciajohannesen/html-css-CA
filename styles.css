@@ -537,7 +537,7 @@ background-color: #848ca4;
         width: 100%;
     }
 
-    .searchbar input{
+    .searchbar > input{
         display: none;
     }
 
