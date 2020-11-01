@@ -720,9 +720,26 @@ background-color: #848ca4;
     }
     .gameimg3 > img {
         width: 100%;
+    
     }
 
     .gameimg2 {
         display: none;
     }
-    } 
+
+    .account {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .account-img > img {
+        display: flex;
+        width: 80%;
+        height: 40%;
+    }
+
+    .line1 {
+        height: 50%;
+    }
+} 
