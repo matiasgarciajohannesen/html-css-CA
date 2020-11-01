@@ -523,7 +523,7 @@ background-color: #848ca4;
 
 /*mobile*/
 
-@media (max-width: 400px) {
+@media (max-width: 410px) {
     span.psw {
         display: block;
         float: none;
@@ -576,6 +576,7 @@ background-color: #848ca4;
         display: flex;
         flex-direction: column-reverse;
     }
+    
 
     .gamesite {
         display: flex;
